@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find-me-gf"
+version = "1.0"
+authors = [
+  { name="A Mysterious Creator", email="creator@example.com" },
+]
+description = "A joke CLI to find a girlfriend, because we all need a laugh."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "rich",
+    "tqdm",
+]
+
+[project.scripts]
+find-me-gf = "find_me_gf.__main__:main"
+
+[project.urls]
+"Homepage" = "https://github.com/example/find-me-gf"
+"Bug Tracker" = "https://github.com/example/find-me-gf/issues"

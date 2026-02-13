@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/find_me_gf/__init__.py
+src/find_me_gf/__main__.py
+src/find_me_gf.egg-info/PKG-INFO
+src/find_me_gf.egg-info/SOURCES.txt
+src/find_me_gf.egg-info/dependency_links.txt
+src/find_me_gf.egg-info/entry_points.txt
+src/find_me_gf.egg-info/requires.txt
+src/find_me_gf.egg-info/top_level.txt

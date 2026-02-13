@@ -1,0 +1,2 @@
+[console_scripts]
+find-me-gf = find_me_gf.__main__:main
