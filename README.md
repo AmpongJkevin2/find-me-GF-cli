@@ -1,11 +1,15 @@
 # Find Me GF (fmgf-cli) - v1.0
 
+[![PyPI version](https://img.shields.io/pypi/v/find-me-gf.svg)](https://pypi.org/project/find-me-gf/)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
-![PyPI Version](https://img.shields.io/badge/pypi-v1.0-blue)
 ![Bugs](https://img.shields.io/badge/bugs-probably%20you-red)
 
 A revolutionary, AI-powered, blockchain-ready, quantum-computed CLI tool to find you a girlfriend. Guaranteed to probably not work.
+
+## Demo
+
+![Demo GIF](find-me-gf-demo.gif)
 
 ## The Problem
 
@@ -29,24 +33,28 @@ Introducing `find-me-gf`, the last dating tool you'll ever need. Using a sophist
 
 You'll need Python 3 and pip. If you don't have them, maybe you should focus on that before trying to find a partner.
 
-To install the package locally, run the following command in the project root directory:
-
+Install the package directly from PyPI:
 ```bash
-pip install .
+pip install find-me-gf
 ```
-This will install all necessary dependencies and add the `find-me-gf` command to your system path.
+This will install the latest stable version and all necessary dependencies.
 
-### Publishing to PyPI (for the developer)
+### Installation for Development
 
-If you want to make this package available for everyone via `pip install find-me-gf`, you'll need to publish it to the Python Package Index (PyPI). You will need `build` and `twine`.
+If you want to contribute to the project, you can install it locally from the source code.
 
-```bash
-# Build the package
-python -m build
-
-# Upload to PyPI
-python -m twine upload dist/*
-```
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/AmpongJkevin2/find-me-GF-cli.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd find-me-GF-cli
+    ```
+3.  Install in editable mode:
+    ```bash
+    pip install -e .
+    ```
 
 ## Usage
 
@@ -65,7 +73,7 @@ Follow the prompts. Be honest. Or don't. It doesn't matter.
 
 ## Bug Reports
 
-If you run the tool and still can't find a girlfriend, please open an issue on our GitHub repository. We will look into it and probably tell you to lower your standards.
+If you run the tool and still can't find a girlfriend, please open an issue on the [GitHub repository](https://github.com/AmpongJkevin2/find-me-GF-cli/issues). We will look into it and probably tell you to lower your standards.
 
 ## Disclaimer
 

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "find-me-gf"
 version = "1.0"
 authors = [
-  { name="A Mysterious Creator", email="creator@example.com" },
+  { name="AmpongJkevin2", email="ampongjkevin2@gmail.com" },
 ]
 description = "A joke CLI to find a girlfriend, because we all need a laugh."
 readme = "README.md"
@@ -28,5 +28,5 @@ dependencies = [
 find-me-gf = "find_me_gf.__main__:main"
 
 [project.urls]
-"Homepage" = "https://github.com/example/find-me-gf"
-"Bug Tracker" = "https://github.com/example/find-me-gf/issues"
+"Homepage" = "https://github.com/AmpongJkevin2/find-me-GF-cli"
+"Bug Tracker" = "https://github.com/AmpongJkevin2/find-me-GF-cli/issues"
