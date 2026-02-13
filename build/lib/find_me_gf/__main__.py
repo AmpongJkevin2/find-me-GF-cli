@@ -17,8 +17,8 @@ def main():
     parser.add_argument("--max-age", type=int, help="The maximum age for your desired partner.")
     args = parser.parse_args()
 
-    console.print(Panel(Text("Welcome to the Find My GF (fmgf-cli) v2.0", justify="center", style="bold magenta"), border_style="green"))
-    console.print("Now with more existential dread!", style="italic yellow")
+    console.print(Panel(Text("Welcome to the Find My GF (fmgf-cli) v1.0", justify="center", style="bold magenta"), border_style="green"))
+    console.print("The only CLI tool with a 100% success rate of failing.", style="italic yellow")
     console.print("Disclaimer: This is a joke tool. Please don't take it seriously. Or do. I'm not your therapist.", style="italic yellow")
 
     min_age = args.min_age

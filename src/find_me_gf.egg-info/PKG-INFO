@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: find-me-gf
-Version: 1.0
+Version: 1.0.1
 Summary: A joke CLI to find a girlfriend, because we all need a laugh.
 Author-email: AmpongJkevin2 <ampongjkevin2@gmail.com>
 Project-URL: Homepage, https://github.com/AmpongJkevin2/find-me-GF-cli
@@ -24,6 +24,10 @@ Requires-Dist: tqdm
 ![Bugs](https://img.shields.io/badge/bugs-probably%20you-red)
 
 A revolutionary, AI-powered, blockchain-ready, quantum-computed CLI tool to find you a girlfriend. Guaranteed to probably not work.
+
+## Demo
+
+![Demo GIF](find-me-gf-demo.gif)
 
 ## The Problem
 
